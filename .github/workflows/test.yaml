@@ -1,7 +1,7 @@
 name: test1_wf
 on:
   - push 
-  - pull_request
+#   - pull_request
   
 jobs:
   first_job:
@@ -10,4 +10,4 @@ jobs:
       - name: First Step
         run: echo "Welcome to Git hub Actions"
       - name: Checkout The Repo
-        uses: checkout@v4
+        uses: actions/checkout@v4
