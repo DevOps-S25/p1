@@ -1,0 +1,11 @@
+name: test1_wf
+on:
+  - push 
+  - pull_request
+  
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Step
+        run: echo "Welcome to Git hub Actions"
