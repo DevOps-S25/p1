@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: First Step
         run: echo "Welcome to Git hub Actions"
+      - name: Checkout The Repo
+        uses: checkout@v4
